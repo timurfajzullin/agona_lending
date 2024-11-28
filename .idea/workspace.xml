@@ -4,13 +4,98 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd23da0c-1d58-4560-ad4e-18cfb2920897" name="Changes" comment="revert back" />
+    <list default="true" id="fd23da0c-1d58-4560-ad4e-18cfb2920897" name="Changes" comment="revert back">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/large/product_card_photo_1_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/large/product_card_photo_2_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/large/product_card_photo_3_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/large/syrup_around_cups_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/large/syrup_in_cup_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/large/syrup_in_hand_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/large/woman_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium/product_card_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium/product_card_photo_1_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium/product_card_photo_2_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium/product_card_photo_3_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium/syrup_around_cups_medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium/syrup_in_cup_medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium/syrup_in_hand_medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/medium/woman_medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/small/syrup_around_cups_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/small/syrup_in_cup_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/small/syrup_in_hand_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/small/woman_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/background_for_text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/big_fire.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/bottom_frame.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/fire_in_rectangular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/fire_in_round.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/pepper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/scorpion.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/ujjo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/vector/white_label.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/footer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/global.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/header.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (2).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (3).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (4).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE (5).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE(6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/IMAGE.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Vector (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/image 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/adaptive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/animations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/variables.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Stage-2-3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -26,19 +111,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Stage-2-3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fajzu/OneDrive/Документы/GitHub/agona_lending/assets&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\styles" />
+      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\styles\scss" />
+      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\assets\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +157,12 @@
       <workItem from="1731784515768" duration="82000" />
       <workItem from="1732016532817" duration="146000" />
       <workItem from="1732016703499" duration="436000" />
+      <workItem from="1732596850139" duration="1535000" />
+      <workItem from="1732598412797" duration="13942000" />
+      <workItem from="1732686629857" duration="1029000" />
+      <workItem from="1732695977623" duration="562000" />
+      <workItem from="1732704129777" duration="2627000" />
+      <workItem from="1732800602529" duration="1993000" />
     </task>
     <task id="LOCAL-00001" summary="revert back">
       <option name="closed" value="true" />

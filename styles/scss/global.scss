@@ -1,0 +1,48 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: var(--fontFamily);
+  font-size: 14px;
+}
+
+.main{
+  margin-top: 112px;
+}
+
+.img{
+  display: block;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+:root{
+  --primary-background-color: #FB4B4D;
+  --nav-text-color: #222222;
+  --header-text-size: 14px;
+  --footer-text-size: 15px;
+  --running-line-text-size: 17px;
+  --default-padding: 20px;
+  --footer-color: #CDFD3B;
+  --fontFamily: "Roboto", sans-serif;
+  --default-border: 1px solid black;
+}
+
+.border{
+  border: var(--default-border);
+  border-top: none;
+}
+
+.container{
+  width: 97%;
+  max-width: 1920px;
+  margin: 0 auto;
+}

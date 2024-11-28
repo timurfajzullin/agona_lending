@@ -1,0 +1,26 @@
+bogy {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+:root {
+  --default-border: 1px solid black;
+}
+
+.border {
+  border: var(--default-border);
+  border-top: none;
+}
+
+.container {
+  width: 97%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=global.css.map */
