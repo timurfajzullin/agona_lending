@@ -59,3 +59,42 @@
 .header .ul-header .nav-link:hover {
   color: var(--primary-background-color);
 }
+
+.drop-button{
+  box-sizing: border-box;
+  border: 0;
+  background-color: white;
+  position: relative;
+}
+
+.dropdown-content::after{
+  content: element(header);
+}
+
+.dropdown-content {
+  display: none; /* Скрывать по умолчанию */
+  background-color: white;
+  z-index: 999;
+  position: absolute;
+  border-top: 1px solid black;
+  padding: 0; /* Убираем отступы, если не нужно */
+  margin: 0;
+}
+
+/* Показывает dropdown при наведении на кнопку */
+.drop-button:hover + .dropdown-content {
+  display: block; /* Показать dropdown при наведении на кнопку */
+}
+
+/* Также можно добавить стили для самой кнопки и li для лучшего оформления */
+.ul-header {
+  position: relative; /* Позволяет dropdown привязаться к nav */
+}
+
+
+
+
+
+
+
+

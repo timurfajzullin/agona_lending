@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header {
   position: fixed;
   top: 0;
@@ -59,6 +60,37 @@
 
 .header .ul-header .nav-link:hover {
   color: var(--primary-background-color);
+}
+
+.drop-button {
+  box-sizing: border-box;
+  border: 0;
+  background-color: white;
+  position: relative;
+}
+
+.dropdown-content::after {
+  content: element(header);
+}
+
+.dropdown-content {
+  display: none; /* Скрывать по умолчанию */
+  background-color: white;
+  z-index: 999;
+  position: absolute;
+  border-top: 1px solid black;
+  padding: 0; /* Убираем отступы, если не нужно */
+  margin: 0;
+}
+
+/* Показывает dropdown при наведении на кнопку */
+.drop-button:hover + .dropdown-content {
+  display: block; /* Показать dropdown при наведении на кнопку */
+}
+
+/* Также можно добавить стили для самой кнопки и li для лучшего оформления */
+.ul-header {
+  position: relative; /* Позволяет dropdown привязаться к nav */
 }
 
 html {
@@ -163,6 +195,8 @@ body {
 }
 
 .running-line {
+  width: auto;
+  z-index: -1;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -463,6 +497,70 @@ h1 {
   font-size: var(--footer-text-size);
   background: var(--footer-color);
   margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --default-padding: 12px;
+  }
+  .header .ul-header {
+    align-items: center;
+    padding: 0;
+    margin: 18px 16px;
+  }
+  .header .ul-header-left, .header .ul-header-right {
+    display: none;
+  }
+  .header .ul-header-center {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .header .ul-header .button-primary {
+    display: none;
+  }
+  .header .header-icon {
+    display: block;
+  }
+  .main {
+    margin-top: 80px;
+  }
+  .banner-section {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .running-line-text {
+    margin-right: 10px;
+  }
+  .banner-right {
+    border-top: 1px solid black;
+  }
+  .main .text-scorpion {
+    padding: 32px 12px;
+    font-size: 24px;
+  }
+  .section-catalog {
+    overflow-x: auto;
+  }
+  .section-catalog .catalog {
+    display: flex;
+  }
+  .section-catalog .product-card {
+    min-height: 600px;
+    flex: 0 0 auto;
+  }
+  .section-catalog .product-card .background-image {
+    position: relative;
+    height: 434px;
+    width: 100%;
+  }
+  .section-history {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .footer address {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

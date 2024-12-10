@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+  :root {
+    --default-padding: 12px;
+  }
+
+  .header .ul-header {
+    align-items: center;
+    padding: 0;
+    margin: 18px 16px;
+  }
+
+  .header .ul-header-left, .header .ul-header-right {
+    display: none;
+  }
+
+  .header .ul-header-center {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header .ul-header .button-primary {
+    display: none;
+  }
+
+  .header .header-icon{
+    display: block;
+  }
+
+  .main{
+    margin-top: 80px;
+  }
+
+  .banner-section{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .running-line-text{
+    margin-right: 10px;
+  }
+  .banner-right{
+    border-top: 1px solid black;
+  }
+
+  .main .text-scorpion{
+    padding: 32px 12px;
+    font-size: 24px;
+  }
+
+  .section-catalog{
+    overflow-x: auto;
+  }
+
+  .section-catalog .catalog{
+    display: flex;
+  }
+
+  .section-catalog .product-card{
+    min-height: 600px;
+    flex: 0 0 auto;
+  }
+
+  .section-catalog .product-card .background-image{
+    position: relative;
+    height: 434px;
+    width: 100%;
+  }
+
+  .section-history{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .footer address{
+    font-size: 12px;
+  }
+
+
+}

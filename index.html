@@ -11,18 +11,41 @@
 <body>
     <div class="container">
         <header class="header container border">
-            <nav>
+            <nav class="nav">
                 <ul class="ul-header flex">
                     <li class="ul-header-left flex">
                         <button class="button-primary">GO BACK</button>
                         <a class="a nav-link"><p>story</p></a>
                         <a class="a nav-link"><p>shop</p></a>
                     </li>
+                    <li>
+                        <button class="drop-button">
+                            <img src="assets/images/vector/open_icon.svg">
+                        </button>
+                        <div class="dropdown-content">
+                            <a class="dropdown-text"><p>story</p></a>
+                            <a class="dropdown-text"><p>shop</p></a>
+                            <a class="dropdown-text"><p>contact</p></a>
+                            <a class="dropdown-text"><p>wholesale</p></a>
+                        </div>
+                    </li>
+
                     <li class="ul-header-center">
                         <a class="a nav-link">
-                            <img src="assets/images/vector/logo.svg" alt="">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="assets/images/vector/min-logo.svg">
+                                <img class="img" src="assets/images/vector/logo.svg" alt="">
+                            </picture>
                         </a>
                     </li>
+
+                    <a class="accaunt-icon">
+                        <picture class="header-icon">
+                            <source media="(max-width: 768px)" srcset="assets/images/vector/accaunt_icon.svg">
+                            <img class="img" src="assets/images/vector/accaunt_icon.svg" alt="open_icon">
+                        </picture>
+                    </a>
+
                     <li class="ul-header-right flex">
                         <a class="a nav-link"><p>contact</p></a>
                         <a class="a nav-link"><p>wholesale</p></a>
@@ -31,6 +54,7 @@
                 </ul>
             </nav>
         </header>
+
         <main class="main">
             <section class="banner-section border">
                 <div class="banner-left">
@@ -50,6 +74,8 @@
                                     srcset="assets/images/large/syrup_around_cups_large.jpg">
                             <source media="(min-width: 1024px)"
                                     srcset="assets/images/medium/syrup_around_cups_medium.jpg">
+                            <source media="(max-width: 768px)"
+                                srcset="assets/images/small/syrup_around_cups_small.jpg">
                             <img class="img" src="assets/images/small/syrup_around_cups_small.jpg" alt="syrup around cups small">
                         </picture>
                     </div>
@@ -70,9 +96,15 @@
                 </div>
             </section>
             <div class="text-scorpion border flex">
-                <img class="img scorpion" src="/assets/images/vector/scorpion.svg" alt="">
+                <picture class="scorpion">
+                    <source media="(max-width: 768px)" srcset="assets/images/small/scorpion.svg">
+                    <img class="img" src="/assets/images/vector/scorpion.svg" alt="">
+                </picture>
                 <h2 class="h2">THROW SOME LAVA IN YOUR JAVA</h2>
-                <img class="img scorpion scaleX" src="/assets/images/vector/scorpion.svg" alt="">
+                <picture class="scorpion scaleX">
+                    <source media="(max-width: 768px)" srcset="assets/images/small/scorpion.svg">
+                    <img class="img" src="/assets/images/vector/scorpion.svg" alt="">
+                </picture>
             </div>
             <section class="section-catalog border">
                 <div class="catalog">

@@ -51,6 +51,8 @@
 }
 
 .running-line {
+  width: auto;
+  z-index: -1;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -341,3 +343,4 @@ h1 {
   bottom: 0;
   width: 100%;
 }
+
