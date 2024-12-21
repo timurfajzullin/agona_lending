@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd23da0c-1d58-4560-ad4e-18cfb2920897" name="Changes" comment="revert back">
-      <change afterPath="$PROJECT_DIR$/assets/images/small/scorpion.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vector/accaunt_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vector/hide_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vector/min-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/vector/open_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/scss/adaptive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/scss/animations.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/global.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/adaptive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/adaptive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/animations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/animations.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/animations.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/global.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/index.css.map" afterDir="false" />
@@ -63,7 +59,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Stage-4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fajzu/OneDrive/Документы/GitHub/agona_lending/assets/images/vector&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fajzu/OneDrive/Документы/GitHub/Agona_JS_HomeWork_2&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -119,6 +115,15 @@
       <workItem from="1733139198498" duration="6680000" />
       <workItem from="1733220420518" duration="13310000" />
       <workItem from="1733482010084" duration="1756000" />
+      <workItem from="1733842812631" duration="5618000" />
+      <workItem from="1734097635051" duration="401000" />
+      <workItem from="1734104542008" duration="11000" />
+      <workItem from="1734106802790" duration="30000" />
+      <workItem from="1734427137695" duration="9438000" />
+      <workItem from="1734500885568" duration="4000" />
+      <workItem from="1734511725466" duration="12412000" />
+      <workItem from="1734636449779" duration="8000" />
+      <workItem from="1734778004652" duration="1291000" />
     </task>
     <task id="LOCAL-00001" summary="revert back">
       <option name="closed" value="true" />

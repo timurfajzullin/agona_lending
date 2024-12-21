@@ -9,72 +9,108 @@
     margin: 18px 16px;
   }
 
-  .header .ul-header-left, .header .ul-header-right {
+  .header .ul-header {
     display: none;
   }
 
-  .header .ul-header-center {
+  .toggle-input:checked + .header-icon + .dropdown-content {
+    display: block; /* Показываем меню при чекбоксе */
+    opacity: 1; /* Полностью видимое */
+    transform: translateY(0); /* Возвращаем в исходное положение */
+  }
+
+  .toggle-input:checked + .header-icon .img {
+    display: none;
+    background-image: url("/assets/images/vector/hide_icon.svg"); /* Меняем изображение */
+  }
+
+
+  .header .ul-header-adaptive {
     flex-basis: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .header .ul-header .button-primary {
     display: none;
   }
 
-  .header .header-icon{
+  .header .header-icon {
     display: block;
   }
 
-  .main{
+  .main {
     margin-top: 80px;
   }
 
-  .banner-section{
+  .banner-section {
     display: grid;
     grid-template-columns: 100%;
   }
 
-  .running-line-text{
+  .running-line-text {
     margin-right: 10px;
   }
-  .banner-right{
+  .banner-right {
     border-top: 1px solid black;
   }
 
-  .main .text-scorpion{
+  .main .text-scorpion {
     padding: 32px 12px;
     font-size: 24px;
   }
 
-  .section-catalog{
-    overflow-x: auto;
-  }
-
-  .section-catalog .catalog{
-    display: flex;
-  }
-
-  .section-catalog .product-card{
-    min-height: 600px;
-    flex: 0 0 auto;
-  }
-
-  .section-catalog .product-card .background-image{
-    position: relative;
-    height: 434px;
-    width: 100%;
-  }
-
-  .section-history{
+  .section-history {
     display: grid;
     grid-template-columns: 100%;
   }
 
-  .footer address{
+  .footer address {
     font-size: 12px;
   }
 
+  .section-catalog {
+    overflow-x: auto;
+  }
 
+  .section-catalog .catalog {
+    padding: 0;
+    position: relative;
+    min-width: max-content;
+  }
+
+  .section-catalog .product-card {
+    height: auto;
+  }
+
+  .section-catalog .fire-container{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body{
+      background-color: #423b3b;
+    }
+
+    .header .ul-header-adaptive {
+      background-color: #423b3b;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+    }
+
+    .header {
+      background-color: white;
+    }
+  }
 }

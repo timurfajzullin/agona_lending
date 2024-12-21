@@ -12,22 +12,39 @@
     <div class="container">
         <header class="header container border">
             <nav class="nav">
+                <ul class="ul-header-adaptive flex">
+                    <li class="drop-button">
+                        <input type="checkbox" id="toggle" class="toggle-input">
+                        <label for="toggle" class="header-icon">
+                            <img src="assets/images/vector/open_icon.svg">
+                        </label>
+                        <div class="dropdown-content">
+                            <a class="dropdown-text" href="#"><p>story</p></a>
+                            <a class="dropdown-text" href="#"><p>shop</p></a>
+                            <a class="dropdown-text" href="#"><p>contact</p></a>
+                            <a class="dropdown-text" href="#"><p>wholesale</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="a nav-link">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="assets/images/vector/min-logo.svg">
+                                <img class="img" src="assets/images/vector/logo.svg" alt="">
+                            </picture>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header-icon">
+                            <img class="img" src="assets/images/vector/accaunt_icon.svg" alt="open_icon">
+                        </a>
+                    </li>
+                </ul>
+
                 <ul class="ul-header flex">
                     <li class="ul-header-left flex">
                         <button class="button-primary">GO BACK</button>
                         <a class="a nav-link"><p>story</p></a>
                         <a class="a nav-link"><p>shop</p></a>
-                    </li>
-                    <li>
-                        <button class="drop-button">
-                            <img src="assets/images/vector/open_icon.svg">
-                        </button>
-                        <div class="dropdown-content">
-                            <a class="dropdown-text"><p>story</p></a>
-                            <a class="dropdown-text"><p>shop</p></a>
-                            <a class="dropdown-text"><p>contact</p></a>
-                            <a class="dropdown-text"><p>wholesale</p></a>
-                        </div>
                     </li>
 
                     <li class="ul-header-center">
@@ -38,13 +55,6 @@
                             </picture>
                         </a>
                     </li>
-
-                    <a class="accaunt-icon">
-                        <picture class="header-icon">
-                            <source media="(max-width: 768px)" srcset="assets/images/vector/accaunt_icon.svg">
-                            <img class="img" src="assets/images/vector/accaunt_icon.svg" alt="open_icon">
-                        </picture>
-                    </a>
 
                     <li class="ul-header-right flex">
                         <a class="a nav-link"><p>contact</p></a>
@@ -63,6 +73,18 @@
                         <img class="img white-label" src="/assets/images/vector/white_label.svg" alt="">
                     </div>
                     <div class="running-line">
+                        <div class="running-line-element">
+                            <span class="running-line-text">put some fire in your belly</span>
+                            <img class="img running-line-img" src="/assets/images/vector/pepper.svg" alt="">
+                        </div>
+                        <div class="running-line-element">
+                            <span class="running-line-text">put some fire in your belly</span>
+                            <img class="img running-line-img" src="/assets/images/vector/pepper.svg" alt="">
+                        </div>
+                        <div class="running-line-element">
+                            <span class="running-line-text">put some fire in your belly</span>
+                            <img class="img running-line-img" src="/assets/images/vector/pepper.svg" alt="">
+                        </div>
                         <div class="running-line-element">
                             <span class="running-line-text">put some fire in your belly</span>
                             <img class="img running-line-img" src="/assets/images/vector/pepper.svg" alt="">
@@ -127,10 +149,10 @@
                             <p class="product-info">tangy and tingly</p>
                             <p class="product-name">LIGHT ROAST BLEND</p>
                             <picture class="product-photo">
-                                <source media="(min-width: 1440px)"
-                                        srcset="/assets/images/large/product_card_photo_1_large.png">
+                                <source media="(max-width: 1000px)"
+                                        srcset="/assets/images/medium/product_card_photo_1_medium.png">
                                 <img class="img"
-                                     src="/assets/images/medium/product_card_photo_1_medium.png"
+                                     src="/assets/images/large/product_card_photo_1_large.png"
                                      alt="photo of the product">
                             </picture>
                         </div>
@@ -144,10 +166,10 @@
                             <p class="product-info">light & dark roast</p>
                             <p class="product-name">UJJO SAMPLER PACK</p>
                             <picture class="product-photo">
-                                <source media="(min-width: 1440px)"
-                                        srcset="/assets/images/large/product_card_photo_2_large.png">
+                                <source media="(max-width: 1000px)"
+                                        srcset="/assets/images/medium/product_card_photo_2_medium.png">
                                 <img class="img"
-                                     src="/assets/images/medium/product_card_photo_2_medium.png"
+                                     src="/assets/images/large/product_card_photo_2_large.png"
                                      alt="photo of the product">
                             </picture>
                         </div>
@@ -161,10 +183,10 @@
                             <p class="product-info">tangy and tingly</p>
                             <p class="product-name">DARK ROAST BLEND</p>
                             <picture class="product-photo">
-                                <source media="(min-width: 1440px)"
-                                        srcset="/assets/images/large/product_card_photo_3_large.png">
+                                <source media="(max-width: 1000px)"
+                                        srcset="/assets/images/medium/product_card_photo_3_medium.png">
                                 <img class="img"
-                                     src="/assets/images/medium/product_card_photo_3_medium.png"
+                                     src="/assets/images/large/product_card_photo_3_large.png"
                                      alt="photo of the product">
                             </picture>
                         </div>
