@@ -67,7 +67,7 @@
   line-height: var(--running-line-text-size);
   display: flex;
   align-items: center;
-  animation: run 5s linear infinite;
+  animation: marquee 4s linear infinite;
 }
 
 .running-line-text {

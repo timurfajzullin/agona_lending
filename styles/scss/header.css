@@ -1,3 +1,100 @@
+@charset "UTF-8";
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top: var(--default-border) !important;
+  background: white;
+  box-sizing: border-box;
+  font-size: var(--header-text-size);
+  z-index: 1;
+}
 
+.header .ul-header, .header .ul-header-adaptive {
+  position: relative;
+  margin: 20px 0;
+  list-style: none;
+  padding: 0 2%;
+  justify-content: space-between;
+}
+
+.header .header-icon {
+  display: none;
+}
+
+.header .ul-header-left, .header .ul-header-right {
+  flex-basis: calc(50% - 100px);
+  justify-content: space-between;
+}
+
+.header .ul-header-left {
+  padding-right: 0.7%;
+}
+
+.header .ul-header-right {
+  padding-left: 0.7%;
+}
+
+.header .ul-header-center {
+  flex-basis: 200px;
+}
+
+.header .ul-header .button-primary {
+  height: 52px;
+  width: auto;
+  padding: 0 8.8%;
+  background: var(--primary-background-color);
+  border: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.header .ul-header .button-primary:hover {
+  cursor: pointer;
+}
+
+.header .ul-header .nav-link {
+  flex-grow: 1;
+  text-decoration: none;
+  color: var(--nav-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .ul-header .nav-link:hover {
+  color: var(--primary-background-color);
+}
+
+.header .ul-header-adaptive {
+  display: none;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: none; /* Скрываем меню по умолчанию */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Начальная прозрачность */
+  transform: translateY(-10px); /* Начальное смещение вверх */
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease; /* Плавный переход */
+  z-index: 1000;
+}
+
+.toggle-input {
+  display: none; /* Скрываем чекбокс */
+}
+
+.dropdown-text {
+  text-decoration: none;
+  color: black;
+}
 
 /*# sourceMappingURL=header.css.map */

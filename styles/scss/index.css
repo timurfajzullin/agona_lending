@@ -231,7 +231,7 @@ body {
   line-height: var(--running-line-text-size);
   display: flex;
   align-items: center;
-  animation: run 5s linear infinite;
+  animation: marquee 4s linear infinite;
 }
 
 .running-line-text {
@@ -618,6 +618,14 @@ h1 {
   }
   .header {
     background-color: white;
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-200%, 0);
   }
 }
 
