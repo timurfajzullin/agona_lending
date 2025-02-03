@@ -1,9 +1,0 @@
-.footer {
-  padding: 20px clamp(12px, 40px + 53 * (100vw - 1024px) / 416, 93px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: var(--footer-text-size);
-  background: var(--footer-color);
-  margin-bottom: 5px;
-}

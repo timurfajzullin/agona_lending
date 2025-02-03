@@ -1,88 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd23da0c-1d58-4560-ad4e-18cfb2920897" name="Changes" comment="revert back">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/adaptive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/adaptive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/animations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/animations.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/animations.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/main.scss" afterDir="false" />
+    <list default="true" id="913a0405-f065-4026-9616-bf26e5c6cfc0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/agona_lending.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/large/product_card_photo_1_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/large/product_card_photo_2_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/large/product_card_photo_3_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/large/syrup_around_cups_large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/large/syrup_in_cup_large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/large/syrup_in_hand_large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/large/woman_large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/medium/product_card_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/medium/product_card_photo_1_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/medium/product_card_photo_2_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/medium/product_card_photo_3_medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/medium/syrup_around_cups_medium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/medium/syrup_in_cup_medium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/medium/syrup_in_hand_medium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/medium/woman_medium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/small/scorpion.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/small/syrup_around_cups_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/small/syrup_in_cup_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/small/syrup_in_hand_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/small/woman_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/accaunt_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/background_for_text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/big_fire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/bottom_frame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/fire_in_rectangular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/fire_in_round.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/hide_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/min-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/open_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/pepper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/scorpion.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/ujjo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/vector/white_label.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/adaptive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/adaptive.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/adaptive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/animations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/animations.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/footer.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/global.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/header.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/main.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="Sass File" />
-        <option value="SCSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Stage-2-3" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2owY7noZpM5xEAKNp7usIio2t3X" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2sXzsb6yCMiCtqoeGKgZMxhq7an" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Stage-4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fajzu/OneDrive/Документы/GitHub/Agona_JS_HomeWork_2&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "React",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\assets\images\vector" />
-      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\assets\images\small" />
-      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\assets\images\vector" />
-      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\styles" />
-      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\styles\scss" />
-      <recent name="C:\Users\fajzu\OneDrive\Документы\GitHub\agona_lending\assets\images" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,65 +104,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd23da0c-1d58-4560-ad4e-18cfb2920897" name="Changes" comment="" />
-      <created>1731781941730</created>
+      <changelist id="913a0405-f065-4026-9616-bf26e5c6cfc0" name="Changes" comment="" />
+      <created>1738616916512</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731781941730</updated>
-      <workItem from="1731781945766" duration="68000" />
-      <workItem from="1731784515768" duration="82000" />
-      <workItem from="1732016532817" duration="146000" />
-      <workItem from="1732016703499" duration="436000" />
-      <workItem from="1732596850139" duration="1535000" />
-      <workItem from="1732598412797" duration="13942000" />
-      <workItem from="1732686629857" duration="1029000" />
-      <workItem from="1732695977623" duration="562000" />
-      <workItem from="1732704129777" duration="2627000" />
-      <workItem from="1732800602529" duration="1993000" />
-      <workItem from="1732806936454" duration="5650000" />
-      <workItem from="1732896977889" duration="2908000" />
-      <workItem from="1732907885005" duration="15831000" />
-      <workItem from="1732963959670" duration="646000" />
-      <workItem from="1733139198498" duration="6680000" />
-      <workItem from="1733220420518" duration="13310000" />
-      <workItem from="1733482010084" duration="1756000" />
-      <workItem from="1733842812631" duration="5618000" />
-      <workItem from="1734097635051" duration="401000" />
-      <workItem from="1734104542008" duration="11000" />
-      <workItem from="1734106802790" duration="30000" />
-      <workItem from="1734427137695" duration="9438000" />
-      <workItem from="1734500885568" duration="4000" />
-      <workItem from="1734511725466" duration="12412000" />
-      <workItem from="1734636449779" duration="8000" />
-      <workItem from="1734778004652" duration="1291000" />
+      <updated>1738616916512</updated>
+      <workItem from="1738616918118" duration="4000" />
     </task>
-    <task id="LOCAL-00001" summary="revert back">
-      <option name="closed" value="true" />
-      <created>1732016747363</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1732016747363</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="revert back" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert back" />
   </component>
 </project>
