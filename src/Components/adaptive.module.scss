@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+  :root {
+    --default-padding: 12px;
+  }
+
+  .header .ul-header {
+    align-items: center;
+    padding: 0;
+    margin: 18px 16px;
+  }
+
+  .header .ul-header {
+    display: none;
+  }
+
+  .toggle-input:checked + .header-icon + .dropdown-content {
+    display: block; /* Показываем меню при чекбоксе */
+    opacity: 1; /* Полностью видимое */
+    transform: translateY(0); /* Возвращаем в исходное положение */
+  }
+
+  .toggle-input:checked + .header-icon .img {
+    display: none;
+    background-image: url("../images/vector/hide_icon.svg"); /* Меняем изображение */
+  }
+
+
+  .header .ul-header-adaptive {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .ul-header .button-primary {
+    display: none;
+  }
+
+  .header .header-icon {
+    display: block;
+  }
+
+  .main {
+    margin-top: 80px;
+  }
+
+  .banner-section {
+    display: grid;
+    grid-template-columns: 100%;
+    box-sizing: content-box;
+  }
+  .banner-right {
+    border-top: 1px solid black;
+  }
+  .running-line-text {
+    margin-right: 10px;
+  }
+
+
+  .main .text-scorpion {
+    padding: 32px 12px;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section-history {
+    display: grid;
+    grid-template-columns: 100%;
+    box-sizing: content-box;
+  }
+
+  .section-catalog {
+    overflow-x: auto;
+    position: relative;
+    padding: 28px 20px;
+  }
+
+  .section-catalog .catalog {
+    padding: 0;
+    position: relative;
+    min-width: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+  }
+
+  .section-catalog .product-card {
+    height: auto;
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .section-catalog .fire-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+  .footer address {
+    font-size: 12px;
+  }
+
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+    }
+
+    .header {
+      background-color: white;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body{
+      background-color: #423b3b;
+    }
+
+    .header .ul-header-adaptive {
+      background-color: #423b3b;
+    }
+  }
+}
